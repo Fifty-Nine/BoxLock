@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name boxlock-rescue)(type Legacy)(uri ${KIPRJMOD}/boxlock-rescue.lib)(options "")(descr ""))
+  (lib (name LT3581)(type Legacy)(uri C:/Users/princet/Downloads/LT3581.lib)(options "")(descr ""))
+  (lib (name AD9102)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/AD9102.lib)(options "")(descr ""))
+  (lib (name AD9837)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/AD9837.lib)(options "")(descr ""))
+  (lib (name AT93C66B)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/AT93C66B.lib)(options "")(descr ""))
+  (lib (name LMK61XX)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/LMK61XX.lib)(options "")(descr ""))
+  (lib (name ltc6269)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/ltc6269.lib)(options "")(descr ""))
+  (lib (name ltc6409)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/ltc6409.lib)(options "")(descr ""))
+  (lib (name SN8P26L38)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/SN8P26L38.lib)(options "")(descr ""))
+  (lib (name SparkFun-AnalogIC)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/SparkFun-AnalogIC.lib)(options "")(descr ""))
+  (lib (name personal)(type Legacy)(uri C:/Users/princet/Documents/kicad-libs/personal.lib)(options "")(descr ""))
+)

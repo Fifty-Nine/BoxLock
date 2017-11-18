@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:boxlock-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -37,10 +37,10 @@ F 3 "" H 8675 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L power:GND #PWR08
 U 1 1 5A0874D4
 P 8675 1675
-F 0 "#PWR01" H 8675 1425 50  0001 C CNN
+F 0 "#PWR08" H 8675 1425 50  0001 C CNN
 F 1 "GND" H 8675 1525 50  0000 C CNN
 F 2 "" H 8675 1675 50  0001 C CNN
 F 3 "" H 8675 1675 50  0001 C CNN
@@ -50,10 +50,10 @@ $EndComp
 Text GLabel 9375 1625 0    60   Input ~ 0
 SOL_TRIG
 $Comp
-L power:GND #PWR02
+L power:GND #PWR012
 U 1 1 5A0877A0
 P 10025 1925
-F 0 "#PWR02" H 10025 1675 50  0001 C CNN
+F 0 "#PWR012" H 10025 1675 50  0001 C CNN
 F 1 "GND" H 10025 1775 50  0000 C CNN
 F 2 "" H 10025 1925 50  0001 C CNN
 F 3 "" H 10025 1925 50  0001 C CNN
@@ -127,10 +127,10 @@ F 3 "" H 7850 925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R3
+L device:R_Small R2
 U 1 1 5A089FB1
 P 7675 1400
-F 0 "R3" H 7705 1420 50  0000 L CNN
+F 0 "R2" H 7705 1420 50  0000 L CNN
 F 1 "2.2k" H 7705 1360 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7675 1400 50  0001 C CNN
 F 3 "" H 7675 1400 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "" H 7300 1400 50  0001 C CNN
 $EndComp
 NoConn ~ 7150 1400
 $Comp
-L power:GND #PWR03
+L power:GND #PWR07
 U 1 1 5A08A216
 P 8175 1650
-F 0 "#PWR03" H 8175 1400 50  0001 C CNN
+F 0 "#PWR07" H 8175 1400 50  0001 C CNN
 F 1 "GND" H 8175 1500 50  0000 C CNN
 F 2 "" H 8175 1650 50  0001 C CNN
 F 3 "" H 8175 1650 50  0001 C CNN
@@ -162,13 +162,13 @@ F 3 "" H 8175 1650 50  0001 C CNN
 $EndComp
 Text GLabel 7225 1625 0    60   Input ~ 0
 SOL_PWM
-Text Notes 6700 2200 0    60   ~ 0
+Text Notes 6700 2250 0    60   ~ 0
 Solenoid Driver
 $Comp
-L power:+BATT #PWR04
+L power:+BATT #PWR02
 U 1 1 5A08C037
 P 7075 800
-F 0 "#PWR04" H 7075 650 50  0001 C CNN
+F 0 "#PWR02" H 7075 650 50  0001 C CNN
 F 1 "+BATT" H 7075 940 50  0000 C CNN
 F 2 "" H 7075 800 50  0001 C CNN
 F 3 "" H 7075 800 50  0001 C CNN
@@ -187,10 +187,10 @@ F 3 "" H 4900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR010
 U 1 1 5A08C54F
 P 4900 1900
-F 0 "#PWR05" H 4900 1650 50  0001 C CNN
+F 0 "#PWR010" H 4900 1650 50  0001 C CNN
 F 1 "GND" H 4900 1750 50  0000 C CNN
 F 2 "" H 4900 1900 50  0001 C CNN
 F 3 "" H 4900 1900 50  0001 C CNN
@@ -231,10 +231,10 @@ F 3 "" H 6325 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L power:GND #PWR011
 U 1 1 5A08C860
 P 6325 1925
-F 0 "#PWR06" H 6325 1675 50  0001 C CNN
+F 0 "#PWR011" H 6325 1675 50  0001 C CNN
 F 1 "GND" H 6325 1775 50  0000 C CNN
 F 2 "" H 6325 1925 50  0001 C CNN
 F 3 "" H 6325 1925 50  0001 C CNN
@@ -242,10 +242,10 @@ F 3 "" H 6325 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR07
+L power:+3.3V #PWR01
 U 1 1 5A08C937
 P 4900 775
-F 0 "#PWR07" H 4900 625 50  0001 C CNN
+F 0 "#PWR01" H 4900 625 50  0001 C CNN
 F 1 "+3.3V" H 4900 915 50  0000 C CNN
 F 2 "" H 4900 775 50  0001 C CNN
 F 3 "" H 4900 775 50  0001 C CNN
@@ -264,10 +264,10 @@ F 3 "" H 3650 1625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR09
 U 1 1 5A08CB68
 P 3650 1900
-F 0 "#PWR08" H 3650 1650 50  0001 C CNN
+F 0 "#PWR09" H 3650 1650 50  0001 C CNN
 F 1 "GND" H 3650 1750 50  0000 C CNN
 F 2 "" H 3650 1900 50  0001 C CNN
 F 3 "" H 3650 1900 50  0001 C CNN
@@ -283,19 +283,19 @@ Text Notes 3425 2250 0    60   ~ 0
 $Comp
 L device:Jumper_NC_Dual JP1
 U 1 1 5A08E62D
-P 10025 2525
-F 0 "JP1" H 10075 2425 50  0000 L CNN
-F 1 "PWM_SELECT" H 10025 2625 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10025 2525 50  0001 C CNN
-F 3 "" H 10025 2525 50  0001 C CNN
-	1    10025 2525
+P 9850 2525
+F 0 "JP1" H 9900 2425 50  0000 L CNN
+F 1 "PWM_SELECT" H 9850 2625 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9850 2525 50  0001 C CNN
+F 3 "" H 9850 2525 50  0001 C CNN
+	1    9850 2525
 	1    0    0    -1  
 $EndComp
-Text GLabel 9700 2675 0    60   Input ~ 0
+Text GLabel 9525 2675 0    60   Input ~ 0
 SOL_PWM
-Text GLabel 9700 2825 0    60   Input ~ 0
+Text GLabel 9525 2825 0    60   Input ~ 0
 CPU_PWM
-Text GLabel 9700 2525 0    60   Input ~ 0
+Text GLabel 9525 2525 0    60   Input ~ 0
 555_PWM
 $Comp
 L boxlock-rescue:LD1117S33TR-RESCUE-boxlock U1
@@ -309,14 +309,14 @@ F 3 "" H 2600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L power:GND #PWR05
 U 1 1 5A08FF58
-P 2600 1325
-F 0 "#PWR09" H 2600 1075 50  0001 C CNN
-F 1 "GND" H 2600 1175 50  0000 C CNN
-F 2 "" H 2600 1325 50  0001 C CNN
-F 3 "" H 2600 1325 50  0001 C CNN
-	1    2600 1325
+P 2375 1325
+F 0 "#PWR05" H 2375 1075 50  0001 C CNN
+F 1 "GND" H 2375 1175 50  0000 C CNN
+F 2 "" H 2375 1325 50  0001 C CNN
+F 3 "" H 2375 1325 50  0001 C CNN
+	1    2375 1325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -342,10 +342,10 @@ F 3 "" H 2050 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR010
+L power:+BATT #PWR03
 U 1 1 5A090578
 P 2050 850
-F 0 "#PWR010" H 2050 700 50  0001 C CNN
+F 0 "#PWR03" H 2050 700 50  0001 C CNN
 F 1 "+BATT" H 2050 990 50  0000 C CNN
 F 2 "" H 2050 850 50  0001 C CNN
 F 3 "" H 2050 850 50  0001 C CNN
@@ -353,10 +353,10 @@ F 3 "" H 2050 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR011
+L power:+3.3V #PWR04
 U 1 1 5A090789
 P 3125 850
-F 0 "#PWR011" H 3125 700 50  0001 C CNN
+F 0 "#PWR04" H 3125 700 50  0001 C CNN
 F 1 "+3.3V" H 3125 990 50  0000 C CNN
 F 2 "" H 3125 850 50  0001 C CNN
 F 3 "" H 3125 850 50  0001 C CNN
@@ -365,17 +365,17 @@ F 3 "" H 3125 850 50  0001 C CNN
 $EndComp
 Text Notes 1950 2000 0    60   ~ 0
 3.3V Regulation
-Text Notes 9175 3375 0    60   ~ 0
+Text Notes 8875 2400 0    60   ~ 0
 Configuration
 $Comp
 L device:Jumper_NC_Dual JP2
 U 1 1 5A094E6C
-P 10025 3000
-F 0 "JP2" H 10075 2900 50  0000 L CNN
-F 1 "SOLENOID_PWR" H 10025 3100 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10025 3000 50  0001 C CNN
-F 3 "" H 10025 3000 50  0001 C CNN
-	1    10025 3000
+P 9850 3000
+F 0 "JP2" H 9900 2900 50  0000 L CNN
+F 1 "SOLENOID_PWR" H 9850 3100 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9850 3000 50  0001 C CNN
+F 3 "" H 9850 3000 50  0001 C CNN
+	1    9850 3000
 	1    0    0    -1  
 $EndComp
 Text GLabel 1175 1100 2    60   Input ~ 0
@@ -383,12 +383,12 @@ USB_D+
 Text GLabel 1175 1250 2    60   Input ~ 0
 USB_D-
 $Comp
-L boxlock-rescue:USB_B-RESCUE-boxlock J3
+L boxlock-rescue:USB_B-RESCUE-boxlock J2
 U 1 1 5A095BAB
 P 825 1125
-F 0 "J3" H 625 1575 50  0000 L CNN
+F 0 "J2" H 625 1575 50  0000 L CNN
 F 1 "USB_B" H 625 1475 50  0000 L CNN
-F 2 "Connectors:USB_Micro-B" H 975 1075 50  0001 C CNN
+F 2 "footprints:USB_Micro-B-circular" H 975 1075 50  0001 C CNN
 F 3 "" H 975 1075 50  0001 C CNN
 	1    825  1125
 	1    0    0    -1  
@@ -396,10 +396,10 @@ $EndComp
 Text GLabel 1175 925  2    60   Input ~ 0
 VBUS
 $Comp
-L power:GND #PWR012
+L power:GND #PWR06
 U 1 1 5A096270
 P 775 1625
-F 0 "#PWR012" H 775 1375 50  0001 C CNN
+F 0 "#PWR06" H 775 1375 50  0001 C CNN
 F 1 "GND" H 775 1475 50  0000 C CNN
 F 2 "" H 775 1625 50  0001 C CNN
 F 3 "" H 775 1625 50  0001 C CNN
@@ -430,26 +430,26 @@ F 3 "" H 1175 2700 50  0001 C CNN
 $EndComp
 Text GLabel 1225 2125 2    60   Input ~ 0
 VEXT
-Text GLabel 9700 3000 0    60   Input ~ 0
+Text GLabel 9525 3000 0    60   Input ~ 0
 VBUS
-Text GLabel 9700 3250 0    60   Input ~ 0
+Text GLabel 9525 3250 0    60   Input ~ 0
 VEXT
 $Comp
-L power:+BATT #PWR014
+L power:+BATT #PWR015
 U 1 1 5A097A2B
-P 9225 3075
-F 0 "#PWR014" H 9225 2925 50  0001 C CNN
-F 1 "+BATT" H 9225 3215 50  0000 C CNN
-F 2 "" H 9225 3075 50  0001 C CNN
-F 3 "" H 9225 3075 50  0001 C CNN
-	1    9225 3075
+P 9050 3075
+F 0 "#PWR015" H 9050 2925 50  0001 C CNN
+F 1 "+BATT" H 9050 3215 50  0000 C CNN
+F 2 "" H 9050 3075 50  0001 C CNN
+F 3 "" H 9050 3075 50  0001 C CNN
+	1    9050 3075
 	1    0    0    -1  
 $EndComp
 $Comp
-L boxlock-rescue:Screw_Terminal_1x02-RESCUE-boxlock J2
+L boxlock-rescue:Screw_Terminal_1x02-RESCUE-boxlock J1
 U 1 1 5A098133
 P 10250 1025
-F 0 "J2" H 10250 1275 50  0000 C TNN
+F 0 "J1" H 10250 1275 50  0000 C TNN
 F 1 "SOLENOID" V 10100 1025 50  0000 C TNN
 F 2 "footprints:282836-2" H 10250 800 50  0001 C CNN
 F 3 "" H 10225 1025 50  0001 C CNN
@@ -457,10 +457,10 @@ F 3 "" H 10225 1025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR015
+L power:GND #PWR025
 U 1 1 5A09B72C
 P 3925 6050
-F 0 "#PWR015" H 3925 5800 50  0001 C CNN
+F 0 "#PWR025" H 3925 5800 50  0001 C CNN
 F 1 "GND" H 3925 5900 50  0000 C CNN
 F 2 "" H 3925 6050 50  0001 C CNN
 F 3 "" H 3925 6050 50  0001 C CNN
@@ -479,10 +479,10 @@ F 3 "" H 5300 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR016
+L power:+3.3V #PWR018
 U 1 1 5A09C0DF
 P 3900 3625
-F 0 "#PWR016" H 3900 3475 50  0001 C CNN
+F 0 "#PWR018" H 3900 3475 50  0001 C CNN
 F 1 "+3.3V" H 3900 3765 50  0000 C CNN
 F 2 "" H 3900 3625 50  0001 C CNN
 F 3 "" H 3900 3625 50  0001 C CNN
@@ -492,12 +492,12 @@ $EndComp
 $Comp
 L boxlock-rescue:SW_Push-RESCUE-boxlock SW1
 U 1 1 5A09CABA
-P 3600 3400
-F 0 "SW1" H 3650 3500 50  0000 L CNN
-F 1 "RESET" H 3600 3340 50  0000 C CNN
-F 2 "footprints:FSMSMTR" H 3600 3600 50  0001 C CNN
-F 3 "" H 3600 3600 50  0001 C CNN
-	1    3600 3400
+P 3525 3400
+F 0 "SW1" H 3575 3500 50  0000 L CNN
+F 1 "RESET" H 3525 3340 50  0000 C CNN
+F 2 "footprints:FSMSMTR" H 3525 3600 50  0001 C CNN
+F 3 "" H 3525 3600 50  0001 C CNN
+	1    3525 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -512,131 +512,71 @@ F 3 "" H 3300 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C7
+L device:C_Small C8
 U 1 1 5A09E9B4
 P 3925 4725
-F 0 "C7" H 3935 4795 50  0000 L CNN
+F 0 "C8" H 3935 4795 50  0000 L CNN
 F 1 "1u" H 3935 4645 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3925 4725 50  0001 C CNN
 F 3 "" H 3925 4725 50  0001 C CNN
 	1    3925 4725
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 5525 2    60   Input ~ 0
+Text GLabel 6700 5500 2    60   Input ~ 0
 USB_D+
-Text GLabel 6700 5375 2    60   Input ~ 0
+Text GLabel 6700 5400 2    60   Input ~ 0
 USB_D-
 Text GLabel 6725 5775 2    60   Input ~ 0
 SWC
 Text GLabel 6725 5925 2    60   Input ~ 0
 SWD
 $Comp
-L device:C_Small C6
+L device:C_Small C7
 U 1 1 5A0A08A5
 P 3700 4175
-F 0 "C6" H 3710 4245 50  0000 L CNN
+F 0 "C7" H 3710 4245 50  0000 L CNN
 F 1 "1u" H 3710 4095 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3700 4175 50  0001 C CNN
 F 3 "" H 3700 4175 50  0001 C CNN
 	1    3700 4175
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 5A0A363E
-P 4100 2750
-F 0 "#PWR018" H 4100 2500 50  0001 C CNN
-F 1 "GND" H 4100 2600 50  0000 C CNN
-F 2 "" H 4100 2750 50  0001 C CNN
-F 3 "" H 4100 2750 50  0001 C CNN
-	1    4100 2750
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 3550 1    60   Input ~ 0
-PA06
-Text GLabel 7325 3550 1    60   Input ~ 0
-PA07
-Text GLabel 7450 3550 1    60   Input ~ 0
-PA08
-Text GLabel 7575 3550 1    60   Input ~ 0
-PA09
-Text GLabel 6700 3550 1    60   Input ~ 0
-PA02
-Text GLabel 4500 2800 0    60   Input ~ 0
-PA06
-Text GLabel 4500 2900 0    60   Input ~ 0
-PA07
-Text GLabel 4475 3100 0    60   Input ~ 0
-SWD
-Text GLabel 5300 3100 2    60   Input ~ 0
-SWC
-Text GLabel 5275 3000 2    60   Input ~ 0
-PA09
-Text GLabel 5275 2900 2    60   Input ~ 0
-PA02
-Text GLabel 5275 2800 2    60   Input ~ 0
-PA08
 NoConn ~ 6550 5700
 NoConn ~ 6550 5600
-NoConn ~ 6550 5300
-NoConn ~ 6550 4500
 NoConn ~ 6550 3500
-NoConn ~ 6550 3400
-$Comp
-L boxlock-rescue:TEST-RESCUE-boxlock TP1
-U 1 1 5A0A9932
-P 5450 1050
-F 0 "TP1" V 5400 1050 50  0000 C BNN
-F 1 "555_PWM" V 5450 1425 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 5450 1050 50  0001 C CNN
-F 3 "" H 5450 1050 50  0001 C CNN
-	1    5450 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L boxlock-rescue:TEST-RESCUE-boxlock TP2
-U 1 1 5A0AA9E5
-P 9125 1075
-F 0 "TP2" H 9125 1375 50  0000 C BNN
-F 1 "VSOL" H 9125 1325 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 9125 1075 50  0001 C CNN
-F 3 "" H 9125 1075 50  0001 C CNN
-	1    9125 1075
-	-1   0    0    1   
-$EndComp
 $Comp
 L device:LED_Small_ALT D4
 U 1 1 5A0AC30A
-P 2925 1375
-F 0 "D4" H 2875 1200 50  0000 L CNN
-F 1 "D5988" H 2750 1275 50  0000 L CNN
-F 2 "LEDs:LED_0805_HandSoldering" V 2925 1375 50  0001 C CNN
-F 3 "" V 2925 1375 50  0001 C CNN
-	1    2925 1375
+P 3125 1750
+F 0 "D4" H 3075 1575 50  0000 L CNN
+F 1 "D5988-RD" H 2950 1650 50  0000 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" V 3125 1750 50  0001 C CNN
+F 3 "" V 3125 1750 50  0001 C CNN
+	1    3125 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R2
+L device:R_Small R3
 U 1 1 5A0ACBF7
-P 3125 1375
-F 0 "R2" V 3200 1300 50  0000 L CNN
-F 1 "470" V 3275 1325 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3125 1375 50  0001 C CNN
-F 3 "" H 3125 1375 50  0001 C CNN
-	1    3125 1375
-	0    1    1    0   
+P 3275 1475
+F 0 "R3" H 3325 1525 50  0000 L CNN
+F 1 "470" H 3325 1450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3275 1475 50  0001 C CNN
+F 3 "" H 3275 1475 50  0001 C CNN
+	1    3275 1475
+	-1   0    0    1   
 $EndComp
-Text GLabel 6950 3550 1    60   Input ~ 0
+Text GLabel 7075 3800 2    60   Input ~ 0
 CPU_PWM
 $Comp
-L boxlock-rescue:CONN_01X07-RESCUE-boxlock J8
+L boxlock-rescue:CONN_01X07-RESCUE-boxlock J6
 U 1 1 5A0B30EF
-P 6825 4900
-F 0 "J8" H 6825 5300 50  0000 C CNN
-F 1 "KEYPAD" V 6925 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 6825 4900 50  0001 C CNN
-F 3 "" H 6825 4900 50  0001 C CNN
-	1    6825 4900
+P 7200 5000
+F 0 "J6" H 7300 5175 50  0000 C CNN
+F 1 "KEYPAD" H 7400 5075 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7200 5000 50  0001 C CNN
+F 3 "" H 7200 5000 50  0001 C CNN
+	1    7200 5000
 	1    0    0    -1  
 $EndComp
 Text Notes 550  3125 0    60   ~ 0
@@ -644,61 +584,48 @@ Power
 $Comp
 L device:LED_Small_ALT D5
 U 1 1 5A0BAE86
-P 7500 5000
-F 0 "D5" V 7550 5075 50  0000 L CNN
-F 1 "D5988" V 7475 5100 50  0000 L CNN
-F 2 "LEDs:LED_0805_HandSoldering" V 7500 5000 50  0001 C CNN
-F 3 "" V 7500 5000 50  0001 C CNN
-	1    7500 5000
+P 7725 4650
+F 0 "D5" V 7725 4500 50  0000 L CNN
+F 1 "D5988-GN" V 7650 4200 50  0000 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" V 7725 4650 50  0001 C CNN
+F 3 "" V 7725 4650 50  0001 C CNN
+	1    7725 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R6
+L device:R_Small R8
 U 1 1 5A0BBCF9
-P 7500 4700
-F 0 "R6" H 7530 4720 50  0000 L CNN
-F 1 "470" H 7530 4660 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7500 4700 50  0001 C CNN
-F 3 "" H 7500 4700 50  0001 C CNN
-	1    7500 4700
+P 7725 4350
+F 0 "R8" H 7755 4370 50  0000 L CNN
+F 1 "470" H 7755 4310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7725 4350 50  0001 C CNN
+F 3 "" H 7725 4350 50  0001 C CNN
+	1    7725 4350
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR020
+L power:GND #PWR021
 U 1 1 5A0BBD90
-P 7500 5175
-F 0 "#PWR020" H 7500 4925 50  0001 C CNN
-F 1 "GND" H 7500 5025 50  0000 C CNN
-F 2 "" H 7500 5175 50  0001 C CNN
-F 3 "" H 7500 5175 50  0001 C CNN
-	1    7500 5175
+P 7725 4825
+F 0 "#PWR021" H 7725 4575 50  0001 C CNN
+F 1 "GND" H 7725 4675 50  0000 C CNN
+F 2 "" H 7725 4825 50  0001 C CNN
+F 3 "" H 7725 4825 50  0001 C CNN
+	1    7725 4825
 	1    0    0    -1  
 $EndComp
 $Comp
-L boxlock-rescue:TEST-RESCUE-boxlock TP3
-U 1 1 5A0C0CED
-P 10500 2750
-F 0 "TP3" H 10500 3050 50  0000 C BNN
-F 1 "CPU_PWM" H 10500 3000 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 10500 2750 50  0001 C CNN
-F 3 "" H 10500 2750 50  0001 C CNN
-	1    10500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG021
+L power:PWR_FLAG #FLG01
 U 1 1 5A0C47BA
-P 9225 3125
-F 0 "#FLG021" H 9225 3200 50  0001 C CNN
-F 1 "PWR_FLAG" H 9225 3275 50  0000 C CNN
-F 2 "" H 9225 3125 50  0001 C CNN
-F 3 "" H 9225 3125 50  0001 C CNN
-	1    9225 3125
+P 9050 3125
+F 0 "#FLG01" H 9050 3200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9050 3275 50  0000 C CNN
+F 2 "" H 9050 3125 50  0001 C CNN
+F 3 "" H 9050 3125 50  0001 C CNN
+	1    9050 3125
 	-1   0    0    1   
 $EndComp
-Text GLabel 6825 3550 1    60   Input ~ 0
-SOL_TRIG
-Text GLabel 7075 3550 1    60   Input ~ 0
+Text GLabel 7075 3900 2    60   Input ~ 0
 PWM_EN
 $Comp
 L boxlock-rescue:TEST-RESCUE-boxlock TP4
@@ -712,21 +639,10 @@ F 3 "" H 3800 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L boxlock-rescue:CONN_02X05-RESCUE-boxlock J6
-U 1 1 5A093A9C
-P 4875 2900
-F 0 "J6" H 4875 3200 50  0000 C CNN
-F 1 "CONN_02X05" H 4875 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 4875 1700 50  0001 C CNN
-F 3 "" H 4875 1700 50  0001 C CNN
-	1    4875 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C_Small C8
+L device:C_Small C6
 U 1 1 5A0942DD
 P 3475 4175
-F 0 "C8" H 3485 4245 50  0000 L CNN
+F 0 "C6" H 3485 4245 50  0000 L CNN
 F 1 "1u" H 3485 4095 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3475 4175 50  0001 C CNN
 F 3 "" H 3475 4175 50  0001 C CNN
@@ -749,7 +665,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 1625 9725 1625
 Wire Wire Line
-	9450 1625 9375 1625
+	9375 1625 9450 1625
 Wire Wire Line
 	8575 925  10050 925 
 Connection ~ 8675 1075
@@ -774,15 +690,11 @@ Wire Wire Line
 Wire Wire Line
 	7225 1625 7300 1625
 Wire Wire Line
-	7300 1625 7300 1550
+	7300 1550 7300 1725
 Wire Notes Line
-	10675 2275 6675 2275
+	10500 2275 6675 2275
 Wire Notes Line
 	6675 2275 6675 575 
-Wire Notes Line
-	6675 575  10675 575 
-Wire Notes Line
-	10675 575  10675 2275
 Wire Wire Line
 	4900 1900 4900 1800
 Wire Wire Line
@@ -832,14 +744,14 @@ Wire Notes Line
 Wire Notes Line
 	6650 575  6650 2275
 Wire Wire Line
-	9700 2525 9775 2525
+	9525 2525 9600 2525
 Wire Wire Line
-	2600 1150 2600 1325
+	2375 1275 2375 1325
 Wire Wire Line
 	2050 1275 3125 1275
 Wire Wire Line
 	3125 1275 3125 1200
-Connection ~ 2600 1275
+Connection ~ 2375 1275
 Wire Wire Line
 	3125 1000 3125 850 
 Wire Wire Line
@@ -855,23 +767,21 @@ Wire Notes Line
 Wire Notes Line
 	3375 575  1925 575 
 Wire Wire Line
-	10025 2625 10025 2675
+	9850 2625 9850 2675
 Wire Wire Line
-	10025 2675 9700 2675
+	9850 2675 9525 2675
 Wire Wire Line
-	9700 2825 10500 2825
+	10150 2825 10150 2525
 Wire Wire Line
-	10325 2825 10325 2525
-Wire Wire Line
-	10325 2525 10275 2525
+	10150 2525 10100 2525
 Wire Notes Line
-	10675 2300 9025 2300
+	10500 2300 8850 2300
 Wire Notes Line
-	9025 2300 9025 3400
+	8850 2300 8850 3400
 Wire Notes Line
-	9025 3400 10675 3400
+	8850 3400 10500 3400
 Wire Notes Line
-	10675 3400 10675 2300
+	10500 3400 10500 2300
 Wire Notes Line
 	1925 575  1925 2025
 Wire Wire Line
@@ -904,13 +814,13 @@ Wire Wire Line
 Wire Wire Line
 	1050 2125 1225 2125
 Wire Wire Line
-	9700 3000 9775 3000
+	9525 3000 9600 3000
 Wire Wire Line
-	9700 3250 10325 3250
+	9525 3250 10150 3250
 Wire Wire Line
-	10325 3250 10325 3000
+	10150 3250 10150 3000
 Wire Wire Line
-	10325 3000 10275 3000
+	10150 3000 10100 3000
 Connection ~ 8675 925 
 Wire Wire Line
 	9675 1125 9750 1125
@@ -930,26 +840,16 @@ Wire Wire Line
 	3800 3750 4050 3750
 Connection ~ 3900 3750
 Wire Wire Line
-	3800 3400 4050 3400
+	3725 3400 4050 3400
 Wire Wire Line
-	3400 3400 3300 3400
+	3325 3400 3300 3400
 Wire Wire Line
 	3300 3400 3300 3475
 Wire Wire Line
 	3925 4550 4050 4550
 Connection ~ 3925 5800
 Wire Wire Line
-	6550 5400 6625 5400
-Wire Wire Line
-	6625 5400 6625 5375
-Wire Wire Line
-	6625 5375 6700 5375
-Wire Wire Line
-	6550 5500 6625 5500
-Wire Wire Line
-	6625 5500 6625 5525
-Wire Wire Line
-	6625 5525 6700 5525
+	6550 5400 6700 5400
 Wire Wire Line
 	6550 5800 6625 5800
 Wire Wire Line
@@ -972,83 +872,13 @@ Connection ~ 3925 4950
 Wire Wire Line
 	3700 4075 3700 3950
 Connection ~ 3900 3950
-Wire Wire Line
-	3925 3000 3925 3400
 Connection ~ 3925 3400
-Wire Wire Line
-	3925 3000 4625 3000
-Wire Wire Line
-	4475 3100 4625 3100
-Wire Wire Line
-	5300 3100 5125 3100
-Wire Wire Line
-	5275 3000 5125 3000
-Wire Wire Line
-	5125 2900 5275 2900
-Wire Wire Line
-	5275 2800 5125 2800
-Wire Wire Line
-	7200 4000 7200 3550
-Wire Wire Line
-	7325 4100 7325 3550
-Wire Wire Line
-	7450 4200 7450 3550
-Wire Wire Line
-	7575 4300 7575 3550
-Wire Wire Line
-	4625 2900 4500 2900
-Wire Wire Line
-	4500 2800 4625 2800
-Wire Wire Line
-	4100 2700 4100 2750
-Wire Wire Line
-	5450 1050 5425 1050
-Wire Wire Line
-	5425 1050 5425 1200
-Connection ~ 5425 1200
 Wire Wire Line
 	9125 1075 9125 925 
 Connection ~ 9125 925 
 Wire Wire Line
 	3275 850  3275 1375
-Wire Wire Line
-	3275 1375 3225 1375
 Connection ~ 3125 850 
-Wire Wire Line
-	2825 1375 2775 1375
-Wire Wire Line
-	2775 1375 2775 1275
-Connection ~ 2775 1275
-Wire Wire Line
-	6950 3800 6950 3550
-Wire Wire Line
-	6625 5200 6550 5200
-Wire Wire Line
-	6550 5100 6625 5100
-Wire Wire Line
-	6625 5000 6550 5000
-Wire Wire Line
-	6550 4900 6625 4900
-Wire Wire Line
-	6625 4800 6550 4800
-Wire Wire Line
-	6550 4700 6625 4700
-Wire Wire Line
-	6625 4600 6550 4600
-Wire Wire Line
-	6700 3600 6700 3550
-Wire Wire Line
-	6700 3600 6550 3600
-Wire Wire Line
-	6550 3800 6950 3800
-Wire Wire Line
-	6550 4000 7200 4000
-Wire Wire Line
-	6550 4100 7325 4100
-Wire Wire Line
-	6550 4200 7450 4200
-Wire Wire Line
-	6550 4300 7575 4300
 Wire Notes Line
 	1900 575  525  575 
 Wire Notes Line
@@ -1058,37 +888,16 @@ Wire Notes Line
 Wire Notes Line
 	1900 3150 1900 575 
 Wire Wire Line
-	7500 5175 7500 5100
+	7725 4825 7725 4750
 Wire Wire Line
-	7500 4900 7500 4800
+	7725 4550 7725 4450
 Wire Wire Line
-	7500 4600 7500 4400
+	2050 1200 2050 1475
 Wire Wire Line
-	7500 4400 6550 4400
+	9050 3075 9050 3125
 Wire Wire Line
-	10500 2825 10500 2750
-Connection ~ 10325 2825
-Wire Wire Line
-	2050 1200 2050 1275
-Wire Wire Line
-	9225 3075 9225 3125
-Wire Wire Line
-	10025 3100 9225 3100
-Connection ~ 9225 3100
-Wire Wire Line
-	6550 3700 6825 3700
-Wire Wire Line
-	6825 3700 6825 3550
-Wire Wire Line
-	7075 3550 7075 3900
-Wire Wire Line
-	7075 3900 6550 3900
-Wire Wire Line
-	4100 2700 4625 2700
-Wire Wire Line
-	5125 2700 5200 2700
-Wire Wire Line
-	5200 2700 5200 2650
+	9850 3100 9050 3100
+Connection ~ 9050 3100
 Wire Wire Line
 	3475 4075 3475 3950
 Connection ~ 3700 3950
@@ -1097,4 +906,382 @@ Wire Wire Line
 Connection ~ 3700 4950
 Wire Wire Line
 	9675 925  9675 1125
+Wire Notes Line
+	10500 575  10500 2275
+Wire Notes Line
+	6675 575  10500 575 
+Text GLabel 7075 3700 2    60   Input ~ 0
+SOL_TRIG
+Wire Wire Line
+	3275 1575 3275 1750
+Wire Wire Line
+	3275 1750 3225 1750
+$Comp
+L Connector:GS2 J3
+U 1 1 5A0D2335
+P 2800 1500
+F 0 "J3" H 2925 1550 50  0000 R CNN
+F 1 "LED_EN" H 3100 1650 50  0000 R CNN
+F 2 "Connectors:GS2" V 2874 1500 50  0001 C CNN
+F 3 "" H 2800 1500 50  0001 C CNN
+	1    2800 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3025 1750 2800 1750
+Wire Wire Line
+	2800 1750 2800 1700
+Wire Wire Line
+	2600 1150 2600 1275
+Connection ~ 2600 1275
+Wire Wire Line
+	2800 1300 2800 1275
+Connection ~ 2800 1275
+Wire Wire Line
+	10150 2825 9525 2825
+$Comp
+L Connector:Test_Point TP3
+U 1 1 5A0D385F
+P 7300 1725
+F 0 "TP3" V 7254 1913 50  0000 L CNN
+F 1 "SOL_PWM" V 7345 1913 50  0000 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 7500 1725 50  0001 C CNN
+F 3 "~" H 7500 1725 50  0001 C CNN
+	1    7300 1725
+	0    1    1    0   
+$EndComp
+Connection ~ 7300 1625
+$Comp
+L Connector:Test_Point TP2
+U 1 1 5A0D4137
+P 9425 1500
+F 0 "TP2" H 9483 1620 50  0000 L CNN
+F 1 "SOL_TRIG" H 9483 1529 50  0000 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 9625 1500 50  0001 C CNN
+F 3 "~" H 9625 1500 50  0001 C CNN
+	1    9425 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 1625 9425 1500
+Connection ~ 9425 1625
+$Comp
+L Connector:Test_Point TP1
+U 1 1 5A0D441F
+P 9125 1075
+F 0 "TP1" H 9067 1102 50  0000 R CNN
+F 1 "SOL_VOUT" H 9067 1193 50  0000 R CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 9325 1075 50  0001 C CNN
+F 3 "~" H 9325 1075 50  0001 C CNN
+	1    9125 1075
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R_Small R6
+U 1 1 5A0D4E52
+P 3925 2975
+F 0 "R6" H 3984 3021 50  0000 L CNN
+F 1 "10k" H 3984 2930 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3925 2975 50  0001 C CNN
+F 3 "" H 3925 2975 50  0001 C CNN
+	1    3925 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR014
+U 1 1 5A0D4F6B
+P 3925 2775
+F 0 "#PWR014" H 3925 2625 50  0001 C CNN
+F 1 "+3V3" H 3940 2948 50  0000 C CNN
+F 2 "" H 3925 2775 50  0001 C CNN
+F 3 "" H 3925 2775 50  0001 C CNN
+	1    3925 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 2875 3925 2775
+Wire Wire Line
+	3925 3075 3925 3400
+Text GLabel 3700 3150 0    60   Input ~ 0
+~RESET
+Wire Wire Line
+	3700 3150 3925 3150
+Connection ~ 3925 3150
+Wire Wire Line
+	7075 3900 6550 3900
+Wire Wire Line
+	6550 3800 7075 3800
+Wire Wire Line
+	7075 3700 6550 3700
+Wire Wire Line
+	6550 5500 6700 5500
+Wire Wire Line
+	6550 5300 7000 5300
+Wire Wire Line
+	7000 5200 6550 5200
+Wire Wire Line
+	6550 5100 7000 5100
+Wire Wire Line
+	7000 5000 6550 5000
+Wire Wire Line
+	6550 4900 7000 4900
+Wire Wire Line
+	7000 4800 6550 4800
+Wire Wire Line
+	7000 4700 6975 4700
+Wire Wire Line
+	6975 4700 6975 4600
+Wire Wire Line
+	6975 4600 6550 4600
+Text GLabel 6600 4700 2    60   Input ~ 0
+BOOT
+Wire Wire Line
+	6600 4700 6550 4700
+$Comp
+L Connector:Conn_02x05_Odd_Even J5
+U 1 1 5A0D69A0
+P 1050 4975
+F 0 "J5" H 1100 5392 50  0000 C CNN
+F 1 "DEBUG" H 1100 5301 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 1050 4975 50  0001 C CNN
+F 3 "~" H 1050 4975 50  0001 C CNN
+	1    1050 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR020
+U 1 1 5A0D6CB4
+P 725 4725
+F 0 "#PWR020" H 725 4575 50  0001 C CNN
+F 1 "+3V3" H 740 4898 50  0000 C CNN
+F 2 "" H 725 4725 50  0001 C CNN
+F 3 "" H 725 4725 50  0001 C CNN
+	1    725  4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5A0D6D3B
+P 725 5250
+F 0 "#PWR022" H 725 5000 50  0001 C CNN
+F 1 "GND" H 730 5077 50  0000 C CNN
+F 2 "" H 725 5250 50  0001 C CNN
+F 3 "" H 725 5250 50  0001 C CNN
+	1    725  5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  4775 725  4775
+Wire Wire Line
+	725  4775 725  4725
+Wire Wire Line
+	850  4875 725  4875
+Wire Wire Line
+	725  4875 725  5250
+Wire Wire Line
+	725  4975 850  4975
+Connection ~ 725  4975
+Wire Wire Line
+	850  5175 725  5175
+Connection ~ 725  5175
+Text GLabel 1575 4775 2    60   Input ~ 0
+SWD
+Text GLabel 1575 4875 2    60   Input ~ 0
+SWC
+Text GLabel 1500 5175 2    60   Input ~ 0
+~RESET
+Wire Wire Line
+	1350 5175 1500 5175
+Wire Wire Line
+	1350 4875 1575 4875
+Wire Wire Line
+	1575 4775 1350 4775
+NoConn ~ 1350 5075
+NoConn ~ 1350 4975
+NoConn ~ 850  5075
+$Comp
+L device:Speaker LS1
+U 1 1 5A0D802F
+P 1600 3475
+F 0 "LS1" H 1550 3625 50  0000 L CNN
+F 1 "Buzzer" H 1550 3725 50  0000 L CNN
+F 2 "footprints:CEP-2242" H 1600 3275 50  0001 C CNN
+F 3 "" H 1590 3425 50  0001 C CNN
+	1    1600 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:2N3904 Q3
+U 1 1 5A0D80F5
+P 1250 3875
+F 0 "Q3" H 1441 3921 50  0000 L CNN
+F 1 "2N3904" H 1441 3830 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1450 3800 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1250 3875 50  0001 L CNN
+	1    1250 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R7
+U 1 1 5A0D82C1
+P 975 3700
+F 0 "R7" V 779 3700 50  0000 C CNN
+F 1 "2.2k" V 870 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 975 3700 50  0001 C CNN
+F 3 "" H 975 3700 50  0001 C CNN
+	1    975  3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR016
+U 1 1 5A0D84DA
+P 1350 3400
+F 0 "#PWR016" H 1350 3250 50  0001 C CNN
+F 1 "+BATT" H 1365 3573 50  0000 C CNN
+F 2 "" H 1350 3400 50  0001 C CNN
+F 3 "" H 1350 3400 50  0001 C CNN
+	1    1350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3575 1350 3575
+Wire Wire Line
+	1350 3575 1350 3675
+Wire Wire Line
+	1400 3475 1350 3475
+Wire Wire Line
+	1350 3475 1350 3400
+Wire Wire Line
+	1050 3875 975  3875
+Wire Wire Line
+	975  3875 975  3800
+$Comp
+L power:GND #PWR019
+U 1 1 5A0D89FF
+P 1350 4125
+F 0 "#PWR019" H 1350 3875 50  0001 C CNN
+F 1 "GND" H 1355 3952 50  0000 C CNN
+F 2 "" H 1350 4125 50  0001 C CNN
+F 3 "" H 1350 4125 50  0001 C CNN
+	1    1350 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 4125 1350 4075
+Text GLabel 900  3500 0    60   Input ~ 0
+BUZZ
+Wire Wire Line
+	900  3500 975  3500
+Wire Wire Line
+	975  3500 975  3600
+Wire Notes Line
+	1900 3175 525  3175
+Wire Notes Line
+	525  3175 525  4475
+Wire Notes Line
+	525  4475 1900 4475
+Wire Notes Line
+	1900 4475 1900 3175
+Text Notes 550  4450 0    60   ~ 0
+Indicator Buzzer
+Wire Wire Line
+	7725 4200 7725 4250
+Text GLabel 7075 3400 2    60   Input ~ 0
+BUZZ
+Wire Wire Line
+	6550 3400 7075 3400
+Wire Wire Line
+	6550 4200 7725 4200
+$Comp
+L Connector:Conn_01x02 J7
+U 1 1 5A0DB86B
+P 1550 5850
+F 0 "J7" H 1630 5842 50  0000 L CNN
+F 1 "BOOT" H 1630 5751 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1550 5850 50  0001 C CNN
+F 3 "~" H 1550 5850 50  0001 C CNN
+	1    1550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R9
+U 1 1 5A0DBE9D
+P 1250 5675
+F 0 "R9" H 1309 5721 50  0000 L CNN
+F 1 "10k" H 1309 5630 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1250 5675 50  0001 C CNN
+F 3 "" H 1250 5675 50  0001 C CNN
+	1    1250 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR023
+U 1 1 5A0DBFEF
+P 1250 5500
+F 0 "#PWR023" H 1250 5350 50  0001 C CNN
+F 1 "+3V3" H 1265 5673 50  0000 C CNN
+F 2 "" H 1250 5500 50  0001 C CNN
+F 3 "" H 1250 5500 50  0001 C CNN
+	1    1250 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5500 1250 5575
+Text GLabel 1050 5850 0    60   Input ~ 0
+BOOT
+Wire Wire Line
+	1050 5850 1350 5850
+Wire Wire Line
+	1250 5850 1250 5775
+Connection ~ 1250 5850
+$Comp
+L power:GND #PWR024
+U 1 1 5A0DC6E9
+P 1250 6000
+F 0 "#PWR024" H 1250 5750 50  0001 C CNN
+F 1 "GND" H 1255 5827 50  0000 C CNN
+F 2 "" H 1250 6000 50  0001 C CNN
+F 3 "" H 1250 6000 50  0001 C CNN
+	1    1250 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6000 1250 5950
+Wire Wire Line
+	1250 5950 1350 5950
+Wire Notes Line
+	525  4500 1900 4500
+Wire Notes Line
+	1900 4500 1900 6325
+Wire Notes Line
+	1900 6325 525  6325
+Wire Notes Line
+	525  6325 525  4500
+Text Notes 550  6300 0    60   ~ 0
+Debug Headers
+NoConn ~ 6550 4500
+NoConn ~ 6550 4400
+NoConn ~ 6550 4300
+NoConn ~ 6550 4100
+NoConn ~ 6550 4000
+NoConn ~ 6550 3600
+NoConn ~ -750 1100
+$Comp
+L Connector:Test_Point TP5
+U 1 1 5A0DE895
+P 2050 1475
+F 0 "TP5" H 1992 1502 50  0000 R CNN
+F 1 "GND" H 1992 1593 50  0000 R CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2250 1475 50  0001 C CNN
+F 3 "~" H 2250 1475 50  0001 C CNN
+	1    2050 1475
+	-1   0    0    1   
+$EndComp
+Connection ~ 2050 1275
+Text Label 8900 925  0    60   ~ 0
+SOL_VOUT
+Text Label 7975 925  0    60   ~ 0
+SOL_DRV
+Text Label 10025 1375 0    60   ~ 0
+SOL_COLL
 $EndSCHEMATC

@@ -5,9 +5,12 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 *~
 _autosave-*
 *.tmp
+*-cache.lib
+fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
